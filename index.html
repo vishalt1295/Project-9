@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+   <link href="./styles.css" rel="stylesheet">
+   <title>Project 9 | Vishal Tailor</title>
+</head>
+
+<body>
+
+   <nav>
+      <a href="/" class="logo">Project 9</a>
+      <ul class="">
+         <li><a href="/" class="nav-link">Home</a></li>
+
+         <li>
+            <label class="toggle-switch">
+               <input type="checkbox" id="mode-toggle">
+               <span class="slider"></span>
+            </label>
+         </li>
+      </ul>
+   </nav>
+
+   <main class="mx-auto">
+      <div class="container">
+         <div class="project-heading">
+           <h1 class="title">Image Slider</h1>
+         </div>
+     
+         <div id="slider">
+           <img src="https://picsum.photos/id/1000/500/400" alt="Image 1">
+           <img src="https://picsum.photos/id/1011/500/400" alt="Image 2">
+           <img src="https://picsum.photos/id/1015/500/400" alt="Image 3">
+           <img src="https://picsum.photos/id/1021/500/400" alt="Image 4">
+           <button id="prev"><i class="bi bi-arrow-left-short"></i></button>
+           <button id="next"><i class="bi bi-arrow-right-short"></i></button>
+         </div>
+       </div>
+   </main>
+
+
+<script src="./index.js"></script>
+</body>
+
+</html>
